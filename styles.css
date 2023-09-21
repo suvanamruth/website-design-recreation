@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tileone {
+    display: flex;
+    background:rgb(31, 41, 55);
+    flex: 1 1 auto;
+    height: 280px;
+}
+.tiletwo {
+    background: white;
+    flex: 1 1 auto;
+    height: 255px;
+}
+.tilethree {
+    background: rgb(229, 231, 235);
+    flex: 1 1 auto;
+    height: 230px;
+}
+.tilefour{
+    background: white;
+    flex: 1 1 auto;
+    height: 160px;
+}
+.tilefive{
+    background:rgb(31, 41, 55);
+    flex: 1 1 auto;
+    height: 40px;
+}
+body{
+    padding:0;
+    margin:0;
+}
