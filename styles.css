@@ -4,27 +4,35 @@
 }
 
 .tileone {
-    display: flex;
     background:rgb(31, 41, 55);
     flex: 1 1 auto;
-    height: 280px;
+    height: 500px;
+    padding-inline-start: 200px;
+    padding-inline-end: 50px;
+    padding-block: 10px;
+    text-align: left;
 }
 .tiletwo {
     background: white;
     flex: 1 1 auto;
-    height: 255px;
+    height: 400px;
+    padding-inline-start: 300px;
+    padding-inline-end: 300px;
 }
 .tilethree {
+    display: flex;
     background: rgb(229, 231, 235);
     flex: 1 1 auto;
     height: 230px;
 }
 .tilefour{
+    display: flex;
     background: white;
     flex: 1 1 auto;
     height: 160px;
 }
 .tilefive{
+    display: flex;
     background:rgb(31, 41, 55);
     flex: 1 1 auto;
     height: 40px;
@@ -32,4 +40,8 @@
 body{
     padding:0;
     margin:0;
+}
+.flexbox{
+    display:flex;
+    flex-direction:row;
 }
