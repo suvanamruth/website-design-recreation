@@ -20,28 +20,55 @@
     padding-inline-end: 300px;
 }
 .tilethree {
-    display: flex;
     background: rgb(229, 231, 235);
     flex: 1 1 auto;
-    height: 230px;
+    height: 300px;
+    padding-inline-start: 320px;
+    padding-inline-end: 320px;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 .tilefour{
-    display: flex;
     background: white;
     flex: 1 1 auto;
-    height: 160px;
+    height: 300px;
+    padding-inline-start: 180px;
+    padding-inline-end: 180px;
 }
 .tilefive{
-    display: flex;
     background:rgb(31, 41, 55);
     flex: 1 1 auto;
-    height: 40px;
+    height: 90px;
+    text-align: center;
 }
 body{
     padding:0;
     margin:0;
 }
 .flexbox{
+    margin-top: 50px;
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
+}
+.imgs{
+    border-radius: 10px;
+    border: 4px solid cornflowerblue;
+}
+.smallerbox{
+    width:150px;
+    height:250px;
+    flex-direction: column;
+}
+.box{
+    padding-top: 50px;
+    padding-bottom:0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
+    margin-top: 75px;
+    height:120px;
+    border-radius: 10px;
 }
